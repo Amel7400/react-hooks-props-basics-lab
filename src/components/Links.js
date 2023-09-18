@@ -5,11 +5,11 @@ function Links({ github, linkedin }) {
   return (
     <div>
       <h3>Links</h3>
-      <a href={user.github}>
+      <a href={user.links.github}>
         {github}
       </a>
       <br />
-      <a href={user.linkedin}>
+      <a href={user.links.linkedin}>
         {linkedin}
       </a>
     </div>
